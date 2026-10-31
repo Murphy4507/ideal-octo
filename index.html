@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atmospheric Geometry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scene" id="scene">
+      <div class="background-glow glow-one"></div>
+      <div class="background-glow glow-two"></div>
+      <div class="background-glow glow-three"></div>
+
+      <div class="sky-drift drift-one"></div>
+      <div class="sky-drift drift-two"></div>
+      <div class="sky-drift drift-three"></div>
+
+      <div class="silhouette silhouette-left"></div>
+      <div class="silhouette silhouette-right"></div>
+
+      <div class="weather-layer" id="weatherLayer" aria-hidden="true"></div>
+
+      <div class="hud">
+        <p class="eyebrow">Atmospheric concept</p>
+        <h1>Night Geometry</h1>
+        <p class="tagline">
+          A full-screen scene with cinematic weather, layered fog, and a living geometric rain.
+        </p>
+        <button id="stormToggle" type="button">Trigger storm</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
